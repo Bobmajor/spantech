@@ -1,0 +1,138 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>SpanTech</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Infinitude Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+
+</head>
+
+<body>
+    
+            
+        {% block content %} {% endblock %}
+        <!-- footer -->
+    <footer class="py-lg-5 py-4">
+        <div class="container py-sm-3">
+            <div class="row footer-grids">
+                <div class="col-lg-4 mt-4">
+
+                    <h2> <a class="navbar-brand px-0 mx-0 mb-4" href="index.html">SpanTech
+                        </a>
+                    </h2>
+                    <p class="mb-3">Lorem Ipsum is simply text the printing and typesetting standard industry. Onec Consequat sapien ut cursus rhoncus. Nullam dui mi, vulputate ac metus.</p>
+                    <h5>Trusted by <span>100+ People</span> </h5>
+                    <div class="icon-social mt-4">
+                        <a href="#" class="button-footr">
+                            <span class="fa mx-2 fa-facebook"></span>
+                        </a>
+                        <a href="#" class="button-footr">
+                            <span class="fa mx-2 fa-twitter"></span>
+                        </a>
+                        <a href="#" class="button-footr">
+                            <span class="fa mx-2 fa-dribbble"></span>
+                        </a>
+                        <a href="#" class="button-footr">
+                            <span class="fa mx-2 fa-pinterest"></span>
+                        </a>
+                        <a href="#" class="button-footr">
+                            <span class="fa mx-2 fa-google-plus"></span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <h4 class="mb-4">Quick Links</h4>
+                    <div class="links-wthree d-flex">
+                        <!-- <ul class="list-info-wthree">
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Online Websites</a></li>
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Free Application</a></li>
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Support Helpline</a></li>
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Privacy Ploicy</a></li>
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Ready to Build</a></li>
+                            <li><a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span> Free Application</a></li>
+                        </ul> -->
+                        <ul class="list-info-wthree ml-5">
+                            <li>
+                                <a href="{% url 'index'%}"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'about'%}"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'team'%}"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+                                    Team
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="fa fa-angle-double-right" aria-hidden="true"></span>
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 ad-info">
+                    <h4 class="mb-4">Contact Info</h4>
+                    <p><span class="fa fa-map-marker"></span>90 Juja,
+                        xxx Honey Street 049436.<span>Kiambu</span></p>
+                    <p class="phone"><span class="fa fa-phone"></span> +254 722141471</p>
+                    <p class="phone"><span class="fa fa-fax"></span> +254 722141471</p>
+                    <p><span class="fa fa-envelope"></span><a href="bobmajor0@gmail.com">bobmajor0@gmail.com</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copy_right p-3 d-flex">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-9 copy_w3pvt">
+                    <p class="text-lg-left text-center">© 2019 SpanTech. All rights reserved | Design by
+                        Major</p>
+
+                </div>
+                <!-- move top -->
+                <div class="col-lg-3 move-top text-lg-right text-center">
+                    <a href="#home" class="move-top">
+                        <span class="fa fa-angle-double-up mt-3" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <!-- move top -->
+            </div>
+        </div>
+
+    </div>
+    <!-- //copyright -->
+</body>
+</html>
+    
